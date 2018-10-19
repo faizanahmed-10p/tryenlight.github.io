@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+	<style>
+div{
+ width:100%;
+ height:100vh;
+ position:relative;
+}
+canvas{
+	border-width:5px;  
+    border-style:solid;
+ position:absolute;
+ top:0;bottom:0;right:0;left:0;
+ margin:auto;
+}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <meta charset="utf-8">
     <title>
        	Web Paint!
@@ -9,7 +27,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<input id="hex" placeholder="enter hex color"></input>
-<canvas id="draw"></canvas>
+<!--<input id="hex" placeholder="enter hex color"></input> -->
+<body>
+	
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">1</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">2</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">3</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">4</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">5</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">6</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">7</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">8</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">9</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">10</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">11</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">12</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">13</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">14</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">15</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">16</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">17</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">18</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">19</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">20</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">21</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">22</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">23</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">24</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">25</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">26</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">27</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">28</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">29</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">30</button>
+		<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img1.png">31</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img2.png">32</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/img3.png">33</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/startup.png">34</button>
+	<button class="w3-button w3-xlarge w3-circle w3-teal" data-src="images/02.jpg">35</button>
 
+
+
+	<div >
+	<canvas   style="background-color:white;" id="canvas" width="650" height="1000">
+	</canvas>
+	</div>
+
+	<!-- <a href="#" id="imageOne"><img id="scream" width="200" height="200" src="images/02.jpg" alt="The Scream"></a> -->
+	<!-- <a href="#" id="imag_two"><img id="scream" width="200" height="200" src="images/02.jpg" alt="The Scream"></a> -->
+
+
+
+</body>
 <script src="app.js"></script>
+
+
+	
+
+
+
+
+

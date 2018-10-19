@@ -1,0 +1,61 @@
+
+
+<!-- <html>
+<body>
+
+<p>Image to use:</p>
+<img id="scream" width="220" height="277" src="images/img1.png" alt="The Scream">
+
+<p>Canvas:</p>
+<canvas id="myCanvas" width="2000" height="2000" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+
+
+
+window.onload = function() {
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("scream");
+    ctx.drawImage(img, 10, 10);
+}
+</script>
+
+<p><strong>Note:</strong> The canvas tag is not supported in Internet 
+Explorer 8 and earlier versions.</p>
+
+</body>
+</html> -->
+
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>
+        Web Paint!
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--<input id="hex" placeholder="enter hex color"></input> -->
+<body>
+  
+
+
+
+<div >
+<canvas id="canvas" width="120" height="120"></canvas>
+</div>    
+<button type="button" onClick="changeBackground()" data-src="images/02.jpg">change </button>
+
+<script type="text/javascript">
+  
+  function changeBackground(){
+    console.log($(this).data('src'));
+  document.getElementById("canvas").style.background = $(this).data('src');
+}
+
+</script>
+</body>
